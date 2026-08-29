@@ -1,0 +1,6 @@
+- insert:
+    - id: dsh-wsl-launch
+      name: dsh-wsl-launch
+      config:
+        timeoutMs: 20000
+        allowlist: []
