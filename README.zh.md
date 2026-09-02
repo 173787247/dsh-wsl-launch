@@ -1,4 +1,6 @@
 # dsh-wsl-launch
+> **套件安装：** 见 [dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit)。推荐 `KIT_SET=daily` | `llm` | `github` | `full`。故障树：[TROUBLESHOOTING.zh.md](https://github.com/173787247/dsh-wsl-kit/blob/master/docs/TROUBLESHOOTING.zh.md)。
+
 
 DeepSeek Harness 工具：**`win_launch`** — 从 WSL 启动**白名单内**的 Windows 应用（`code`、资源管理器、浏览器等）。
 
