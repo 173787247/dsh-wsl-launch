@@ -8,6 +8,18 @@ DeepSeek Harness 工具：**`win_launch`** — 从 WSL 启动**白名单内**的
 
 [English → README.md](./README.md)
 
+## 在套件里的位置
+
+只启动白名单里的 Windows 程序。不会随便拉起任意 exe。
+
+```mermaid
+flowchart LR
+  agent["dsh agent"] --> tool["win_launch"] --> win["白名单 Windows 程序"]
+```
+
+整套关系图和版本快照：[dsh-wsl-kit 中文说明](https://github.com/173787247/dsh-wsl-kit/blob/master/README.zh.md)。本插件是 **0.1.0**（daily）。不要把那份总表抄进本 README。
+
+
 ---
 ## 兼容性
 

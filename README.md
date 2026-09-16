@@ -8,6 +8,18 @@ Part of **[dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit)**.
 
 [中文说明 → README.zh.md](./README.zh.md)
 
+## Where it sits
+
+Starts an allowlisted Windows app. It will not launch an arbitrary exe.
+
+```mermaid
+flowchart LR
+  agent["dsh agent"] --> tool["win_launch"] --> win["allowlisted Windows app"]
+```
+
+Suite diagram and version snapshot: [dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit#how-the-pieces-fit). This plugin is **0.1.0** (daily). Do not copy that matrix into this README.
+
+
 ---
 ## Compatibility
 
